@@ -6,3 +6,10 @@ def riepilogo(tasks: list[Task]) -> str:
     totali = len(tasks)
     completati = sum(task.completato for task in tasks)
     return f"Task totali: {totali} | Completati: {completati} | Aperti: {totali - completati}"
+
+modifica 1
+modifica 1
+modifica 1
+modifica 1
+modifica 1
+modifica 1
