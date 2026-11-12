@@ -6,3 +6,5 @@ from app.models.task import Task
 def cerca_per_titolo(tasks: list[Task], testo: str) -> list[Task]:
     testo = testo.casefold()
     return [task for task in tasks if testo in task.titolo.casefold()]
+
+modifica 2
