@@ -1,6 +1,6 @@
 from app.task_service import aggiungi_task, completa_task
 from app.task_report import riepilogo
-
+#inserisco un commento per il commit del main
 
 def main() -> None:
     tasks = []
